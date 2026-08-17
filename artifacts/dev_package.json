@@ -1,35 +1,42 @@
 {
-	"id": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e",
-	"createdAt": "2026-06-10T14:59:20.204Z",
-	"createdBy": "playwright",
+	"id": "6fa32dfb-9bf7-4049-a3bb-1f467f78cc43",
+	"createdAt": "2026-08-17T22:02:19.043Z",
+	"createdBy": "neptune_bot_agent",
 	"git": {
 		"remote": "https://github.com/neptune-software/qa-openedition-test-repo",
-		"branch": "master"
+		"branch": "branch-47437"
 	},
-	"name": "Package-Server-Script",
+	"name": "neptune-automation-package-09-1006",
 	"description": null,
-	"ver": "26.06.10.1501",
+	"ver": "26.08.17.2203",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
 	"excludeTemplateFiles": false,
 	"roles": [],
-	"apps": [],
+	"apps": [
+		{
+			"id": "ee3de939-82b0-4895-b016-0f052037c7af",
+			"application": "neptune_automation_application_09_1006",
+			"title": "",
+			"description": ""
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [
 		{
-			"id": "c9076514-c2d2-45fe-8ea3-2296138a306c",
-			"name": "123",
+			"id": "2fd53f46-1375-4da0-84ed-af386f14ee9f",
+			"name": "neptune_automation_script_c100",
 			"description": null
 		}
 	],
 	"jsscript_group": [
 		{
-			"id": "5c5f9eae-fb84-45ae-9b03-c13c1bba4a2e",
-			"name": "Project_QA_Rommel",
+			"id": "94e0475f-33c2-44a9-9968-a12cb4f7c260",
+			"name": "Neptune_Automation_Project_09_1006",
 			"description": ""
 		}
 	],
@@ -45,7 +52,13 @@
 	"category": [],
 	"tilegroup_layout": [],
 	"launchpad": [],
-	"launchpad_layout": [],
+	"launchpad_layout": [
+		{
+			"id": "be799ec4-cd8d-459a-8506-f93423c88f4b",
+			"NAME": "neptune-automation-layout-09-1006",
+			"DESCR": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -55,7 +68,13 @@
 	"script_scheduler": [],
 	"wf_definition": [],
 	"connector": [],
-	"i18n": [],
+	"i18n": [
+		{
+			"id": "3583b9e3-c844-409c-851b-524bce1d1e1c",
+			"name": "neptune_automation_application_09_1006",
+			"description": null
+		}
+	],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
