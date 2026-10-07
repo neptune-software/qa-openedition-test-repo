@@ -1,0 +1,21 @@
+{
+	"id": "b252f47b-fff8-402c-ab8d-a2a197a62575",
+	"createdAt": "2026-10-07T16:19:35.000Z",
+	"createdBy": "admin",
+	"name": "Neptune QA Group",
+	"description": null,
+	"ver": "26.10.07.1819",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e",
+	"roles": [
+		{
+			"id": "5a1d456b-1561-4717-9e6a-e6e57eb37d13",
+			"name": "Neptune QA Role",
+			"ver": "26.10.07.1818"
+		}
+	]
+}

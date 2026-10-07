@@ -1,0 +1,31 @@
+{
+	"id": "00a33051-c9a7-4021-88ac-d5d5b8d70f07",
+	"createdAt": "2026-10-07T16:15:32.000Z",
+	"createdBy": "admin",
+	"scripts": [
+		{
+			"id": "c4b0de11-cb2c-4222-90c6-0aefc8acbd55",
+			"name": "neptune_qa_test_serverscript",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "neptune-qa-background-job",
+	"description": null,
+	"alertEmail": null,
+	"active": false,
+	"intervalMonths": null,
+	"intervalDays": null,
+	"intervalHours": null,
+	"intervalMinutes": 2,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": 0,
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2026-10-07T16:15:04.875Z",
+	"stopdate": "9999-12-31T00:00:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "26.10.07.1815",
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e"
+}

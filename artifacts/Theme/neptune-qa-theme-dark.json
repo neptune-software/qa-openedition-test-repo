@@ -1,0 +1,13 @@
+{
+	"id": "6e063710-3353-47c4-8ef0-4a7889e317d4",
+	"createdAt": "2026-10-07T16:02:34.000Z",
+	"createdBy": "admin",
+	"content": [],
+	"name": "neptune-qa-theme-dark",
+	"ver": "26.10.07.1802",
+	"description": null,
+	"ui5Theme": "sap_fiori_3_dark",
+	"stylesheet": null,
+	"calculated": "",
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e"
+}

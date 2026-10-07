@@ -1,0 +1,20 @@
+{
+	"id": "88f66746-8d49-43f1-a819-291122673bf7",
+	"createdAt": "2026-10-07T16:22:09.000Z",
+	"createdBy": "admin",
+	"items": [
+		{
+			"id": "79c8cdfc-a919-462e-ffab-7585ac7d8f33",
+			"orgUnit": "U",
+			"orgValue": "admin",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "O",
+			"taskType": [],
+			"orgId": "98e01d8e-dff7-4e55-9f0b-71431ecd3a85"
+		}
+	],
+	"name": "Neptune QA Approver",
+	"description": null,
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e"
+}

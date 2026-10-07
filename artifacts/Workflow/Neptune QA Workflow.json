@@ -1,0 +1,22 @@
+{
+	"id": "ba9b9ccb-72fb-4264-8c60-0c0fa72cdea2",
+	"createdAt": "2026-10-07T16:21:12.000Z",
+	"createdBy": "admin",
+	"tasks": [],
+	"translation": [],
+	"flowEditor": {
+		"objects": [],
+		"connections": []
+	},
+	"title": "Neptune QA Workflow",
+	"subTitle": null,
+	"daysUntilOverdue": null,
+	"daysNotificationInterval": null,
+	"enableNotifications": false,
+	"omitFriday": false,
+	"omitSaturday": false,
+	"omitSunday": false,
+	"icon": null,
+	"ver": "26.10.07.1821",
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e"
+}

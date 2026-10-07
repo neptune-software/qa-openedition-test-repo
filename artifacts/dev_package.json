@@ -8,7 +8,7 @@
 	},
 	"name": "neptune-qa-test-artifacts-package",
 	"description": "Collection of test artifacts for use in upgrade installation",
-	"ver": "26.10.07.1743",
+	"ver": "26.10.07.1823",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -21,10 +21,42 @@
 			}
 		}
 	],
-	"api": [],
-	"odataSource": [],
-	"odataMock": [],
-	"dictionary": [],
+	"api": [
+		{
+			"id": "f7bf4ee1-fe66-463f-9ece-edbaff0e50c6",
+			"name": "Neptune QA Petstore",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [
+		{
+			"id": "d37b17c9-8ad6-4cdf-a033-bfd4e64633f9",
+			"name": "neptune-qa-odata-source-v4",
+			"description": null,
+			"apiGroup": "18fc08fb-a252-4266-ad27-2fc4f5de14e3"
+		},
+		{
+			"id": "08217f97-a8b7-44e2-8bcf-476608c35275",
+			"name": "neptune-qa-odata-source-v2",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataMock": [
+		{
+			"id": "89f3bbe4-b93a-4253-957d-b509c29e12b2",
+			"name": "neptune-qa-mockdata",
+			"description": null
+		}
+	],
+	"dictionary": [
+		{
+			"id": "fa101d28-5d1e-4946-9b7c-9be70e7d9a1a",
+			"name": "neptune_qa_table",
+			"description": null
+		}
+	],
 	"jsclass": [
 		{
 			"id": "c9076514-c2d2-45fe-8ea3-2296138a306c",
@@ -49,7 +81,13 @@
 			"description": ""
 		}
 	],
-	"theme": [],
+	"theme": [
+		{
+			"id": "6e063710-3353-47c4-8ef0-4a7889e317d4",
+			"name": "neptune-qa-theme-dark",
+			"description": null
+		}
+	],
 	"pdf": [],
 	"rulesengine": [
 		{
@@ -58,23 +96,137 @@
 			"description": ""
 		}
 	],
-	"reports": [],
-	"api_authentication": [],
-	"api_group": [],
-	"tile": [],
-	"category": [],
-	"launchpad": [],
-	"certificates": [],
-	"role": [],
-	"systems": [],
-	"doc": [],
-	"wf_notifications": [],
-	"department": [],
-	"script_scheduler": [],
-	"wf_definition": [],
-	"connector": [],
-	"events": [],
-	"code_snippets": [],
-	"wf_determination": [],
-	"wf_taskaction": []
+	"reports": [
+		{
+			"id": "50c434f6-3f58-480c-9379-9a009840cc83",
+			"name": "neptune_qa_adaptive_app",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
+	"api_authentication": [
+		{
+			"id": "c6ce11fa-b94d-4597-888f-46b2b5ab6be4",
+			"name": "Neptune QA Auth",
+			"description": null
+		}
+	],
+	"api_group": [
+		{
+			"id": "18fc08fb-a252-4266-ad27-2fc4f5de14e3",
+			"name": "neptune-qa-connectivity-group",
+			"description": null
+		}
+	],
+	"tile": [
+		{
+			"id": "3d1ea151-278d-4558-aeef-6618b68e4436",
+			"description": null,
+			"name": "neptune-qa-tile"
+		}
+	],
+	"category": [
+		{
+			"id": "8d22c099-70d8-4343-89e7-96bcad08f43d",
+			"description": null,
+			"name": "neptune-qa-tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "b841a1ad-53c1-4f31-a8f2-be7e400223a5",
+			"name": "neptune-qa-launchpad",
+			"description": null
+		}
+	],
+	"certificates": [
+		{
+			"id": "bc472527-ca25-4034-8b09-2e534af919be",
+			"name": "Neptune QA Cert",
+			"description": null
+		}
+	],
+	"role": [
+		{
+			"id": "5a1d456b-1561-4717-9e6a-e6e57eb37d13",
+			"name": "Neptune QA Role",
+			"description": null
+		}
+	],
+	"systems": [
+		{
+			"id": "0d94b96b-d944-49dc-986f-0bcee9cd1540",
+			"name": "Neptune QA Remote System",
+			"description": null
+		}
+	],
+	"doc": [
+		{
+			"id": "ec4615fa-f00f-4317-9bcc-4a183df31240",
+			"application": "neptune_qa_test_app"
+		}
+	],
+	"wf_notifications": [
+		{
+			"id": "04618e13-3190-4860-961a-6af3cf1ce942",
+			"name": "neptune-qa-email-template",
+			"description": null
+		}
+	],
+	"department": [
+		{
+			"id": "b252f47b-fff8-402c-ab8d-a2a197a62575",
+			"name": "Neptune QA Group",
+			"description": null
+		}
+	],
+	"script_scheduler": [
+		{
+			"id": "00a33051-c9a7-4021-88ac-d5d5b8d70f07",
+			"name": "neptune-qa-background-job",
+			"description": null
+		}
+	],
+	"wf_definition": [
+		{
+			"id": "ba9b9ccb-72fb-4264-8c60-0c0fa72cdea2",
+			"title": "Neptune QA Workflow",
+			"subTitle": null
+		}
+	],
+	"connector": [
+		{
+			"id": "e6e90d2f-fa5a-4fd5-9e71-05bfda217ac2",
+			"name": "neptune-qa-connector",
+			"description": null
+		}
+	],
+	"events": [
+		{
+			"id": "ff10f6d3-b29e-4d92-a0f3-91816653d469",
+			"name": "neptune-qa-event",
+			"description": null
+		}
+	],
+	"code_snippets": [
+		{
+			"id": "209ea517-87fe-4a6c-8d4e-9e1482b6a65f",
+			"name": "neptune-qa-code-snippets",
+			"description": null
+		}
+	],
+	"wf_determination": [
+		{
+			"id": "88f66746-8d49-43f1-a819-291122673bf7",
+			"name": "Neptune QA Approver",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "d9b4fce0-0e1f-43c7-b4fb-317836aab3cb",
+			"name": "Neptune QA Task Action",
+			"description": null
+		}
+	]
 }

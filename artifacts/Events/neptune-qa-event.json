@@ -1,0 +1,19 @@
+{
+	"id": "ff10f6d3-b29e-4d92-a0f3-91816653d469",
+	"createdAt": "2026-10-07T16:16:06.000Z",
+	"createdBy": "admin",
+	"name": "neptune-qa-event",
+	"description": null,
+	"eventAction": "JobEvent",
+	"scriptId": null,
+	"jobId": "00a33051-c9a7-4021-88ac-d5d5b8d70f07",
+	"workflowId": null,
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e",
+	"script": null,
+	"job": {
+		"id": "00a33051-c9a7-4021-88ac-d5d5b8d70f07",
+		"name": "neptune-qa-background-job",
+		"ver": "26.10.07.1815"
+	},
+	"workflow": null
+}

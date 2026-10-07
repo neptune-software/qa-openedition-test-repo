@@ -1,0 +1,18 @@
+{
+	"id": "d37b17c9-8ad6-4cdf-a033-bfd4e64633f9",
+	"createdAt": "2026-10-07T16:07:05.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"name": "neptune-qa-odata-source-v4",
+	"ver": "26.10.07.1807",
+	"description": null,
+	"version": null,
+	"endpoint": "https://example.com",
+	"enableProxy": false,
+	"enableIDE": true,
+	"package": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e",
+	"apiGroup": "18fc08fb-a252-4266-ad27-2fc4f5de14e3",
+	"tlsAllowUntrusted": false,
+	"odataVersion": "v4"
+}
