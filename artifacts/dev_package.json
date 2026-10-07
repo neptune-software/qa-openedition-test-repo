@@ -10,7 +10,17 @@
 	"description": "Collection of test artifacts for use in upgrade installation",
 	"ver": "26.10.07.1743",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "e937db41-9faa-498a-b976-cf0a1871d1b8",
+			"application": "neptune_qa_test_app",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "2edfb7fb-0fe5-4bd7-8690-3edc1de5a99e"
+			}
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
@@ -20,6 +30,11 @@
 			"id": "c9076514-c2d2-45fe-8ea3-2296138a306c",
 			"name": "123",
 			"description": null
+		},
+		{
+			"id": "c4b0de11-cb2c-4222-90c6-0aefc8acbd55",
+			"name": "neptune_qa_test_serverscript",
+			"description": null
 		}
 	],
 	"jsscript_group": [
@@ -27,11 +42,22 @@
 			"id": "5c5f9eae-fb84-45ae-9b03-c13c1bba4a2e",
 			"name": "Project_QA_Rommel",
 			"description": ""
+		},
+		{
+			"id": "380f75e6-5b85-494a-a2ef-180645d0d8e4",
+			"name": "Project_Neptune_QA",
+			"description": ""
 		}
 	],
 	"theme": [],
 	"pdf": [],
-	"rulesengine": [],
+	"rulesengine": [
+		{
+			"id": "32dc93e9-4389-410c-8245-daadf42d0ce8",
+			"name": "neptune-qa-rules-engine",
+			"description": ""
+		}
+	],
 	"reports": [],
 	"api_authentication": [],
 	"api_group": [],
